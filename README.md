@@ -1,8 +1,7 @@
 # Sorting-Deck
-
 ## Core project
-
 ### Notions: sorting algorithms and algorithm complexity
+
 
 ## Introduction
 
@@ -18,10 +17,10 @@ Your mission is to implement different sorting algorithms and to visualise those
 When given a series of numbers as input, your program will sort them using the algorithm specified on the command line. It will output the different steps of the sorting operation on stdout, or display them in the GUI if the GUI option is specified.
 
 In the core part of the project, you will implement the following algorithms:
-    * bubble sort
-    * insertion sort
-    * quick-sort
-    * merge sort
+* bubble sort
+* insertion sort
+* quick-sort
+* merge sort
 
 Because understanding algorithms and their complexity is essential to become a well-rounded engineer (... you will also need it to pass technical interviews!), you also need to research the complexity of those algorithms. During the code review, you must be able to describe the worst/average/best cases of those algorithms.
 
@@ -36,10 +35,10 @@ The arguments to the **--algo** option are **bubble**, **insert**, **quick** and
 A **--gui** option will display a graphical representation of the sort with the pyglet library that you know already. You must be able to display inputs of up to 15 integers in the core part of the project (you can handle larger inputs as a bonus). This limit is only for the GUI mode, the default mode should of course handle inputs of all sizes.
 
 In non-GUI mode, the outputs on stdout will be as follow:
-    * **Bubble sort**: you will output the list after each swap of integers
-    * **Insertion sort**: you will output the list after each insertion operation placing a number at its right place in the sorted list
-    * **Quick sort**: you will output the pivot and the list after each partition operation (you can choose the pivot however you want)
-    * **Merge sort**: you will output the merged list after each merge of two sublists. The Sentinel will assume that you recursively sort the left half of a list first.
+* **Bubble sort**: you will output the list after each swap of integers
+* **Insertion sort**: you will output the list after each insertion operation placing a number at its right place in the sorted list
+* **Quick sort**: you will output the pivot and the list after each partition operation (you can choose the pivot however you want)
+* **Merge sort**: you will output the merged list after each merge of two sublists. The Sentinel will assume that you recursively sort the left half of a list first.
 
 You have to respect those output directions strictly, otherwise the Sentinel won't be able to assess that you correctly implemented your algorithm.
 
