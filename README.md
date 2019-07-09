@@ -1,14 +1,14 @@
 # Sorting-Deck
-## Core project
-### Notions: sorting algorithms and algorithm complexity
 
+## Core project
+
+### Notions: sorting algorithms and algorithm complexity
 
 ## Introduction
 
 This subject is an algorithm project.
 
 It will initiate you to a fundamental category of algorithms -sorting algorithms-, as well as theoretical notions revolving around algorithm analysis, such as the big O notation. In this project, your understanding of the theoretical notions is as important as your code, so spend enough time doing your research and synthesizing it.
-
 
 ## Your mission
 
@@ -17,6 +17,7 @@ Your mission is to implement different sorting algorithms and to visualise those
 When given a series of numbers as input, your program will sort them using the algorithm specified on the command line. It will output the different steps of the sorting operation on stdout, or display them in the GUI if the GUI option is specified.
 
 In the core part of the project, you will implement the following algorithms:
+
 * bubble sort
 * insertion sort
 * quick-sort
@@ -26,15 +27,16 @@ Because understanding algorithms and their complexity is essential to become a w
 
 __Note__: Obviously you won't get any skill points if you don't understand perfectly what you have implemented.
 
-
 ## Directions
-Your program must be called **sorting_deck.py** and be present at the root of your git repository.
 
-The arguments to the **--algo** option are **bubble**, **insert**, **quick** and **merge**. If the option **--algo** is not specified, the default algorithm will be bubble sort.
+Your program must be called `sorting_deck.py` and be present at the root of your git repository.
 
-A **--gui** option will display a graphical representation of the sort with the pyglet library that you know already. You must be able to display inputs of up to 15 integers in the core part of the project (you can handle larger inputs as a bonus). This limit is only for the GUI mode, the default mode should of course handle inputs of all sizes.
+The arguments to the `--algo` option are `bubble`, `insert`, `quick` and `merge`. If the option `--algo` is not specified, the default algorithm will be bubble sort.
+
+A `--gui` option will display a graphical representation of the sort with the pyglet library that you know already. You must be able to display inputs of up to 15 integers in the core part of the project (you can handle larger inputs as a bonus). This limit is only for the GUI mode, the default mode should of course handle inputs of all sizes.
 
 In non-GUI mode, the outputs on stdout will be as follow:
+
 * **Bubble sort**: you will output the list after each swap of integers
 * **Insertion sort**: you will output the list after each insertion operation placing a number at its right place in the sorted list
 * **Quick sort**: you will output the pivot and the list after each partition operation (you can choose the pivot however you want)
@@ -141,7 +143,6 @@ All those elements will be checked manually during the review, as the Sentinel i
 
 **Important note**: all your code related to the GUI should be imported **only if the --gui option** is specified. First, to respect clean design principles (don't import useless modules!), and secondly because importing pyglet in the Sentinel will make it crash.
 
-
 ## BONUS: in-place merge sort
 
 This is more of a textbook algorithm that you wouldn't use in real life, but it's still worth thinking about for the exercice.
@@ -149,7 +150,6 @@ This is more of a textbook algorithm that you wouldn't use in real life, but it'
 Implement an in-place version of merge sort that doesn't require creating new lists, and its corresponding visualisation in the GUI.
 
 How does this memory-efficient implementation affect the algorithm complexity of the merge sort? How significant is then the difference between the worse and best cases? Is it worth it?
-
 
 ## BONUS: simultaneous visualisation
 
